@@ -8,7 +8,11 @@ html {
   text-align: center;
   height: 100%;
   padding: 16px;
+  gap: 15px;
   box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 1fr 3.33fr;
+  grid-template-rows: repeat(2, 1fr) 5fr 1fr;
 }
 
 .container div {
